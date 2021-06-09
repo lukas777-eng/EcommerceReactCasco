@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40px ;
+  width: 40px;
+  pointer-events: none;
+}
+
+.navbar {
+  display: flex;
+
+}
+
+.category {
+  display: inline-flex;
+}
+
+li {
+  padding-right: 50px;
+}
+
+
+
+.App-header {
+  background-color: #282c34;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+

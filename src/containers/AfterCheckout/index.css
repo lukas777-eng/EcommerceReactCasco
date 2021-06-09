@@ -1,0 +1,17 @@
+h1 {
+    color: black;
+    text-align: left;
+}
+
+h2 {
+    text-align: left;
+    
+}
+
+h3 {
+    text-align: left;
+}
+
+.Container {
+    padding-top: 1em;
+}
