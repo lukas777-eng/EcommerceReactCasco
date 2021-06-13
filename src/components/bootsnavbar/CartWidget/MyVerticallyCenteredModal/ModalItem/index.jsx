@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { Button, Col, Container, Row, Card, Accordion, ButtonGroup } from 'react-bootstrap';
 import { CartContext } from '../../../../../context/cartContext';
-import { getFirestore } from '../../../../../firebase';
+
 
 const ModalItem = ({ i, cart }) => {
   const { removeItem } = useContext(CartContext)

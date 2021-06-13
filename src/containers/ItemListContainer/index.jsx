@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import Row from 'react-bootstrap/Row';
 import ItemList from './ItemList'
- import { getFirestore } from '../../firebase';
+ //import { getFirestore } from '../../firebase';
 
 const ItemListContainer = ({ children, greeting, listaDeItems }) => {
 

@@ -12,7 +12,7 @@ const Item = ({ item, is }) => {
         <>
             <Col xl={2} lg={3} md={3} sm={4} className="mb-4">
                 <Card bg="dark" text="warning" className="h-100">
-                    <Link to={`/ItemDetail/${item.id}`} style={{ color: 'inherit', textDecoration: 'inherit' }}>
+                    <Link to={`/ItemDetail/${Item.categoryId}`} style={{ color: 'inherit', textDecoration: 'inherit' }}>
                         <Card.Img variant="top" src={item.imageId} />
                         <Card.Body>
                             <Card.Title>{item.title}</Card.Title>

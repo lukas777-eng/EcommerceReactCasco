@@ -27,10 +27,10 @@ const bootnavbar = ({ linkTo }) => {
                     <NavDropdown title="Category" id="basic-nav-dropdown">
                         <NavDropdown.Item as={Link} to={"/category/PS5"}>PS5</NavDropdown.Item>
                         <NavDropdown.Item as={Link} to={"/category/PS4"}>PS4</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to={"/category/:id"}>PS3</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to={"/category/:id"}>Xbox One/360</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to={"/category/:id"}>X series</NavDropdown.Item>
-                        <NavDropdown.Item as={Link} to={"/category/:id"}>Nintendo Switch</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to={"/category/PS3"}>PS3</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to={"/category/XBOX One"}>Xbox One/360</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to={"/category/XBOX"}>X series</NavDropdown.Item>
+                        <NavDropdown.Item as={Link} to={"/category/NintendoSwitch"}>Nintendo Switch</NavDropdown.Item>
                     </NavDropdown>
                 </Nav>
                 <Nav className="justify-content-end" style={{ width: "100%" }}>
