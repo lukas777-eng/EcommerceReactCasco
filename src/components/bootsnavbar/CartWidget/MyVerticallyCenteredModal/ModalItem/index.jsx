@@ -10,7 +10,6 @@ const ModalItem = ({ i, cart }) => {
       <Row>
         <Col>
           <h4>{cart.Item.title}</h4>
-          <h5>cantidad</h5>
         </Col>
         <Col>
         <img
