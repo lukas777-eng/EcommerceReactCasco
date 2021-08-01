@@ -6,9 +6,9 @@ export const CartProvider = ({ children }) => {
     const [cart, setCart] = useState([]);
     const [total, setTotal] = useState(0);
     const [cantTotal, setCantTotal] = useState(0);
-    
+
     const isInCart = (item) => {
-        const isDuplicated = (element) => element.Item.name === item.name;
+        const isDuplicated = (element) => element.Item.title === item.title;
         const index = cart.findIndex(isDuplicated)
         if (index===-1){return [false,index]}else{return[true,index]}
     }
@@ -29,10 +29,10 @@ export const CartProvider = ({ children }) => {
         }
     }
     const removeItem = (item,quantity) => {
-        return () => {        
+        return () => {
             setCantTotal(cantTotal-quantity)
             setTotal(total-(quantity*(item.price)))
-            setCart(cart.filter(cart => cart.Item.name !== item.name));
+            setCart(cart.filter(cart => cart.Item.title !== item.title));
         }
     }
     const clearCart = () => {

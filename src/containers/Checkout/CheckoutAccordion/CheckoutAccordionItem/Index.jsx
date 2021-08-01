@@ -9,7 +9,7 @@ const CheckoutAccordionItem = ({cart,i}) => {
             <Container className="p-3">
                 <Row>
                     <Col>
-                        <h4>{cart.Item.name}</h4>
+                        <h4>{cart.Item.title}</h4>
                     </Col>
                     <Col >
                         <ButtonGroup aria-label="Basic example" style={{ float: 'right' }} >

@@ -38,6 +38,12 @@ const ItemDetail = () => {
                         <Carousel.Item>
                             <Image src={item.imageId} thumbnail className="d-block w-100 border-0" />
                         </Carousel.Item>
+                        <Carousel.Item>
+                            <Image src={item.image1} thumbnail className="d-block w-100 border-0" />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <Image src={item.image2} thumbnail className="d-block w-100 border-0" />
+                        </Carousel.Item>
                     </Carousel>
                 </Col>
                 <Info item={item} />

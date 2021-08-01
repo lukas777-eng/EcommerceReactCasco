@@ -3,10 +3,11 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import BnavBar from './components/bootsnavbar';
-import ItemListContainer from './containers/ItemListContainer'
-import ItemDetail from './containers/ItemDetail'
-import Checkout from './containers/Checkout'
-import { CartProvider } from './context/cartContext.jsx'
+import Home from './components/Home/Home';
+import ItemListContainer from './containers/ItemListContainer';
+import ItemDetail from './containers/ItemDetail';
+import Checkout from './containers/Checkout';
+import { CartProvider } from './context/cartContext.jsx';
 import AfterCheckout from './containers/AfterCheckout';
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
         <div className="App">
           <BnavBar />
           <Switch>
+            <Route exact path="/home" component={Home} />
             <Route exact path="/">
               <ItemListContainer />
             </Route>
