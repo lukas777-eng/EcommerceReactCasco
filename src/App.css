@@ -1,33 +1,3 @@
 .App {
   text-align: left;
 }
-
-.wheel {
-  height: 40vmin;
-  pointer-events: none;
-  animation: wheel-spin infinite 5s linear;
-}
-
-.first-section {
-  background-color: #e46464;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: rgb(34,34,50);
-}
-
-@keyframes wheel-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}

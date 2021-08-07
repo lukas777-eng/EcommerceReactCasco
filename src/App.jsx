@@ -24,7 +24,7 @@ const App = () => {
             <Route path="/category/:id">
               <ItemListContainer />
             </Route>
-            <Route exact path="/itemDetail/:id">
+            <Route path="/itemDetail/:id">
               <ItemDetail />
             </Route>
             <Route exact path="/Checkout">

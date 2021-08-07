@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import Row from 'react-bootstrap/Row';
 import ItemList from './ItemList'
+import Home from '../../components/Home/Home.js'
  //import { getFirestore } from '../../firebase';
 
 const ItemListContainer = ({ children, greeting, listaDeItems }) => {
@@ -23,6 +24,7 @@ const ItemListContainer = ({ children, greeting, listaDeItems }) => {
     return (
         <div className="container">
             <Row>
+                <Home />
                 <ItemList id={categoryId} />
             </Row>
         </div>
